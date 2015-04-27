@@ -1,0 +1,231 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+html, body {
+    height: 100%;
+}
+
+.content-view {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  padding-top: $navbar-height;
+}
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.navbar-brand {
+  img {
+    margin-top: -15px;
+  }
+}
+
+#main.container-fluid {
+  height: 100%;
+
+  .row {
+    height: 100%;
+
+    .sidebar {
+      height: 100%;
+      background: $gray-lighter;
+      overflow-y: auto;
+      border-right: 1px solid $gray;
+      padding:0;
+      display: block;
+
+      @media screen and (max-width:768px) {
+        position: fixed;
+        margin-left: 0px;
+        width: 300px;
+        margin-left: -300px;
+        z-index: 2000;
+      }
+
+      #DirectionsCtrl {
+        display: none;
+      }
+
+      #DirectionsCtrl.display {
+        display: block;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .padding {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+      }
+
+      .btn-long {
+        width: 100%;
+      }
+
+      a.list-group-item {
+            color: lighten($main-color, 14%);
+        }
+
+        .media {
+            .pull-left {
+                padding-right: 10px;
+            }
+
+            .media-body {
+                .m0 {
+                    margin: 0;
+                }
+                .text-muted {
+                    color: $gray-light;
+                }
+            }
+        }
+    }
+
+    .sidebar.open {
+      @media screen and (max-width:767px) {
+        margin-left: 0;
+      }
+    }
+    .main {
+      height: 100%;
+      padding: 0;
+      #map {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+
+  @media (min-width: 768px) {
+    margin-top: 20px;
+  }
+
+  .container {
+    @media (min-width: 768px) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  .navbar {
+    @media (min-width: 768px) {
+      border-radius: 4px;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .container {
+      width: auto;
+    }
+  }
+}
+
+.navbar-custom {
+  border: 0;
+  box-shadow: none;
+}
+
+.opportunities {
+  position: absolute;
+  display: table;
+  height: 75%;
+  width: 100%;
+  background: $gray-lighter;
+  top: 500px;
+  right: 0;
+  left: 0;
+
+  .opportunities-inner {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+
+    .panel-body {
+      padding: 0;
+
+      .list-group {
+        margin-bottom: 0;
+
+        .list-group-item {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+}
+
+.details {
+  height: 500px;
+  position: absolute;
+  display: table;
+  left: 0;
+  right: 0;
+  background: $main-color;
+  min-width: 100%;
+
+  .details-inner {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .container {
+
+    .site-title {
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+      a {
+        color: $brand-primary;
+      }
+
+      a:hover {
+        color: $brand-primary;
+        text-decoration: none;
+      }
+    }
+
+    .container-inner {
+      position: relative;
+      width: 100%;
+      vertical-align: bottom;
+
+      .site-title {
+        position: absolute;
+        bottom: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+        z-index: 10;
+        right: 15%;
+        left: 15%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        @media (min-width: 768px) {
+          right: 20%;
+          left: 20%;
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+}

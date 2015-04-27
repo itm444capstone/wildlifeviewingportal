@@ -1,0 +1,4917 @@
+[
+    {
+        "pk": 1,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Restrooms"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Trails"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Picnic"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Camping"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Visitor center"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Cross-country skiing"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Boat ramp"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Restaurant"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Lodging"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Drinking water"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Fishing"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Hunting"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "facilities.Facility",
+        "fields": {
+            "name": "Entry fee"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Bats"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Beavers"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Butterflies"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Elk"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Fish"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Frogs"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Loons"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Migration hotspot"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Otters"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Raptors"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Reptiles"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Sandhill cranes"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Shorebirds"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Songbirds"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Turkeys"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Waterbirds"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Waterfowl"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "animals.Animal",
+        "fields": {
+            "name": "Wolves"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                5,
+                8,
+                9,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.nps.gov/isro/index.htm",
+            "owner": "National Park Service",
+            "telephone": "906-482-0984",
+            "longitude": -89.1577264,
+            "name": "Isle Royale National Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                7,
+                18
+            ],
+            "latitude": 47.9116978
+        }
+    },
+    {
+        "pk": 2,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?type=SPRK&id=426",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-885-5275",
+            "longitude": -89.6250852,
+            "name": "Porcupine Mountains Wilderness State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10
+            ],
+            "latitude": 46.8146439
+        }
+    },
+    {
+        "pk": 3,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/ottawa/recarea/?recid=12343",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -90.04707,
+            "name": "Black River Recreation Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14,
+                16,
+                17
+            ],
+            "latitude": 46.664053
+        }
+    },
+    {
+        "pk": 4,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/ottawa/null/recarea/?recid=12328&actid=34",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -89.6347944,
+            "name": "Gogebic Ridge Hiking Trail",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14
+            ],
+            "latitude": 46.5861685
+        }
+    },
+    {
+        "pk": 5,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "",
+            "owner": "United States Forest Service",
+            "telephone": "",
+            "longitude": -89.710061,
+            "name": "Presque Isle Flowage",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                16
+            ],
+            "latitude": 46.344618
+        }
+    },
+    {
+        "pk": 6,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/ottawa/null/recarea/?recid=12332&actid=70",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -89.3101916,
+            "name": "Clark Lake Day-Use Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14
+            ],
+            "latitude": 46.2445747
+        }
+    },
+    {
+        "pk": 7,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "",
+            "owner": "City of Iron Mountain",
+            "telephone": "",
+            "longitude": -88.0546148,
+            "name": "Millie Mine Bat Viewing Site",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                1
+            ],
+            "latitude": 45.8215904
+        }
+    },
+    {
+        "pk": 8,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/ottawa/null/recarea/?recid=12318&actid=42",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -88.7166638,
+            "name": "Deer Marsh Interpretive Trail",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                9,
+                13,
+                14,
+                16,
+                17
+            ],
+            "latitude": 46.4053216
+        }
+    },
+    {
+        "pk": 9,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                6
+            ],
+            "owner_link": "http://www.wildernesslakestrails.org/PDF%20&%20Word%20Files/2013%20Plan%20+%20Overview%20Map.pdf",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -89.1738471,
+            "name": "Agonikak National Recreation Trail",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                2,
+                5,
+                13
+            ],
+            "latitude": 46.2625693
+        }
+    },
+    {
+        "pk": 10,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5109812.jpg",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -88.9834375,
+            "name": "Davidson Lakes Hunter Walking Trail",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                9
+            ],
+            "latitude": 46.5257719
+        }
+    },
+    {
+        "pk": 11,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/ottawa/recarea/?recid=12324",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -88.9141107,
+            "name": "Bob Lake Campground",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                12,
+                17
+            ],
+            "latitude": 46.6612746
+        }
+    },
+    {
+        "pk": 12,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                3
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/ottawa/null/recarea/?recid=12323&actid=119",
+            "owner": "United States Forest Service",
+            "telephone": "906-932-1330",
+            "longitude": -88.731616,
+            "name": "Silver Mountain",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                10
+            ],
+            "latitude": 46.667863
+        }
+    },
+    {
+        "pk": 13,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=419",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-289-4215",
+            "longitude": -87.8683739,
+            "name": "Fort Wilkins Historic State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 47.4678046
+        }
+    },
+    {
+        "pk": 14,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2
+            ],
+            "owner_link": "https://www.michigannature.org/home/sancts/estivant/estivant.shtml",
+            "owner": "Michigan Nature Association",
+            "telephone": "866-223-2231",
+            "longitude": -87.8775701,
+            "name": "Estivant Pines Nature Sanctuary",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 47.4461147
+        }
+    },
+    {
+        "pk": 15,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Sturgeon_River_Sloughs_SWMA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-353-6651",
+            "longitude": -88.489905,
+            "name": "Sturgeon River Sloughs",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                10,
+                13,
+                16,
+                17
+            ],
+            "latitude": 47.0080567
+        }
+    },
+    {
+        "pk": 16,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                3,
+                4,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Groveland_Mine_Flooding_SWMA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-563-9247",
+            "longitude": -87.9875847,
+            "name": "Groveland Mine Flooding State Wildlife Management Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                5,
+                8,
+                10,
+                16
+            ],
+            "latitude": 45.9811526
+        }
+    },
+    {
+        "pk": 17,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?id=86&type=SPCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-339-4461",
+            "longitude": -87.984959,
+            "name": "Van Riper State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 46.5208996
+        }
+    },
+    {
+        "pk": 18,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                12
+            ],
+            "owner_link": "",
+            "owner": "Mead Corporation",
+            "telephone": "",
+            "longitude": -87.4680443,
+            "name": "Wetmore Pond",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                17
+            ],
+            "latitude": 46.607044
+        }
+    },
+    {
+        "pk": 19,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                6,
+                7,
+                10
+            ],
+            "owner_link": "http://www.mqtcty.org/parks-presque-isle.php",
+            "owner": "City of Marquette",
+            "telephone": "906-228-0460",
+            "longitude": -87.3873487,
+            "name": "Presque Isle Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                11,
+                17
+            ],
+            "latitude": 46.5819238
+        }
+    },
+    {
+        "pk": 20,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                7,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=647&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-786-2351",
+            "longitude": -87.8664931,
+            "name": "Gene's Pond State Forest Campground",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10,
+                16
+            ],
+            "latitude": 46.073116
+        }
+    },
+    {
+        "pk": 21,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                7
+            ],
+            "owner_link": "",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "",
+            "longitude": -87.6753208,
+            "name": "Hardwood Impoundment",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                15,
+                16,
+                17
+            ],
+            "latitude": 45.974185
+        }
+    },
+    {
+        "pk": 22,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                7,
+                11
+            ],
+            "owner_link": "",
+            "owner": "Wisconsin Electric Power Company",
+            "telephone": "",
+            "longitude": -87.9391066,
+            "name": "Menominee River/Piers Gorge",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10,
+                17
+            ],
+            "latitude": 45.7596664
+        }
+    },
+    {
+        "pk": 23,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/hiawatha/recarea/?recid=13320",
+            "owner": "United States Forest Service",
+            "telephone": "906-428-5800",
+            "longitude": -86.9664507,
+            "name": "Peninsula Point",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                3,
+                8,
+                13,
+                16,
+                17
+            ],
+            "latitude": 45.6686889
+        }
+    },
+    {
+        "pk": 24,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Portage_Marsh_SWMA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-786-2351",
+            "longitude": -87.0798239,
+            "name": "Portage Marsh State Wildlife Management Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                13,
+                17
+            ],
+            "latitude": 45.7064788
+        }
+    },
+    {
+        "pk": 25,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/hiawatha/recreation/recarea/?recid=13323&actid=62",
+            "owner": "United States Forest Service",
+            "telephone": "906-428-5800",
+            "longitude": -86.836402,
+            "name": "Au Train Songbird Trail",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                13,
+                14,
+                17
+            ],
+            "latitude": 46.3931325
+        }
+    },
+    {
+        "pk": 26,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.nps.gov/piro/planyourvisit/naturetrails.htm",
+            "owner": "National Park Service",
+            "telephone": "906-387-3700",
+            "longitude": -86.6493785,
+            "name": "Sand Point Marsh Trail/Pictured Rocks National Lakeshore",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                2,
+                14,
+                16,
+                17
+            ],
+            "latitude": 46.4090301
+        }
+    },
+    {
+        "pk": 27,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                12
+            ],
+            "owner_link": "",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-452-6227",
+            "longitude": -86.312465,
+            "name": "Rainey Wildlife Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                10,
+                14
+            ],
+            "latitude": 46.022376
+        }
+    },
+    {
+        "pk": 28,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                6,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fws.gov/refuge/seney/",
+            "owner": "United States Fish and Wildlife Service",
+            "telephone": "906-586-9851",
+            "longitude": -85.9454574,
+            "name": "Seney National Wildlife Refuge",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                7,
+                9,
+                10,
+                12,
+                17
+            ],
+            "latitude": 46.2880304
+        }
+    },
+    {
+        "pk": 29,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=687&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-293-5131",
+            "longitude": -85.5939376,
+            "name": "Big Knob Forest Campground",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10,
+                16,
+                17
+            ],
+            "latitude": 46.0389483
+        }
+    },
+    {
+        "pk": 30,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                10,
+                12
+            ],
+            "owner_link": "",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-635-5281",
+            "longitude": -85.1231093,
+            "name": "Cut River Bridge/Heath Michael Robinson Memorial Bridge Roadside Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                14
+            ],
+            "latitude": 46.0436773
+        }
+    },
+    {
+        "pk": 31,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=428",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-492-3415",
+            "longitude": -85.2238378,
+            "name": "Tahquamenon Falls State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                9,
+                10,
+                14,
+                17
+            ],
+            "latitude": 46.6004169
+        }
+    },
+    {
+        "pk": 32,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10
+            ],
+            "owner_link": "http://www.wpbo.org/",
+            "owner": "Whitefish Point Bird Observatory",
+            "telephone": "906-492-3596",
+            "longitude": -84.979909,
+            "name": "Whitefish Point Bird Observatory",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                7,
+                8,
+                10,
+                13,
+                14,
+                17
+            ],
+            "latitude": 46.752754
+        }
+    },
+    {
+        "pk": 33,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/hiawatha/recreation/recarea/?recid=13336&actid=50",
+            "owner": "United States Forest Service",
+            "telephone": "906-428-5800",
+            "longitude": -84.6375047,
+            "name": "Monocle Lake Interpretive Trail",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                10,
+                17
+            ],
+            "latitude": 46.4695269
+        }
+    },
+    {
+        "pk": 34,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                4,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Munuscong_SWMA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-293-5131",
+            "longitude": -84.2806338,
+            "name": "Munuscong Wildlife Management Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                13,
+                14,
+                17
+            ],
+            "latitude": 46.2131956
+        }
+    },
+    {
+        "pk": 35,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "",
+            "owner": "United States Forest Service",
+            "telephone": "",
+            "longitude": -84.75001,
+            "name": "Horseshoe Bay",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                16,
+                17
+            ],
+            "latitude": 45.932815
+        }
+    },
+    {
+        "pk": 36,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=422&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-339-4461",
+            "longitude": -87.077823,
+            "name": "Laughing Whitefish Falls State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 46.381473
+        }
+    },
+    {
+        "pk": 37,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?id=359&type=SFPW",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-293-3293",
+            "longitude": -85.761504,
+            "name": "Blind Sucker Pathway",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 46.670214
+        }
+    },
+    {
+        "pk": 38,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=682&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-293-3293",
+            "longitude": -85.064142,
+            "name": "Shelldrake Dam State Forest Campground",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 46.712468
+        }
+    },
+    {
+        "pk": 39,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=690&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-643-8620",
+            "longitude": -85.306753,
+            "name": "Hog Island Point State Forest Campground",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 46.081229
+        }
+    },
+    {
+        "pk": 40,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "owner_link": "http://www.mackinacparks.com/parks-and-attractions/mackinac-island-state-park/",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-847-3328",
+            "longitude": -84.6155931,
+            "name": "Mackinac Island State Park",
+            "ada": true,
+            "fee": true,
+            "animals": [],
+            "latitude": 45.8487117
+        }
+    },
+    {
+        "pk": 41,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=468&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-843-2423",
+            "longitude": -86.5052361,
+            "name": "Ludington State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                16,
+                17
+            ],
+            "latitude": 44.0326103
+        }
+    },
+    {
+        "pk": 42,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/hmnf/null/recarea/?recid=18858&actid=78",
+            "owner": "United States Forest Service",
+            "telephone": "800-821-6263",
+            "longitude": -86.382116,
+            "name": "Hamlin Lake Marsh",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                16,
+                17
+            ],
+            "latitude": 44.083192
+        }
+    },
+    {
+        "pk": 43,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                10
+            ],
+            "owner_link": "http://www.michiganaudubon.org/our-conservation-impact/bird-sanctuaries/",
+            "owner": "Michigan Audubon Society",
+            "telephone": "517-580-7364",
+            "longitude": -86.309305,
+            "name": "Lake Bluff Audubon Center",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                3,
+                10,
+                15,
+                17
+            ],
+            "latitude": 44.291252
+        }
+    },
+    {
+        "pk": 44,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "",
+            "longitude": -85.861439,
+            "name": "Manistee River",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                5,
+                9,
+                10,
+                15,
+                17
+            ],
+            "latitude": 44.28403
+        }
+    },
+    {
+        "pk": 45,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "\"http://www.michigan.gov/dnr/0,4570,7-153-10369_46675_58936---,00.html\"",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-779-1321",
+            "longitude": -85.454279,
+            "name": "Carl T. Johnson Hunting and Fishing Center and Heritage Fisheries and Wildlife Nature Study Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                11,
+                16,
+                17
+            ],
+            "latitude": 44.240308
+        }
+    },
+    {
+        "pk": 46,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                12
+            ],
+            "owner_link": "",
+            "owner": "United States Forest Service",
+            "telephone": "",
+            "longitude": -85.520301,
+            "name": "Brandybrook Semiprimitive Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                10
+            ],
+            "latitude": 44.242205
+        }
+    },
+    {
+        "pk": 47,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.nps.gov/slbe/index.htm",
+            "owner": "National Park Service",
+            "telephone": "231-326-4700",
+            "longitude": -86.0562473,
+            "name": "Sleeping Bear Dunes National Lakeshore",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                9,
+                10,
+                14,
+                15,
+                17
+            ],
+            "latitude": 44.8116007
+        }
+    },
+    {
+        "pk": 48,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                7,
+                10
+            ],
+            "owner_link": "",
+            "owner": "Suttons Bay Village",
+            "telephone": "",
+            "longitude": -85.649332,
+            "name": "Suttons Bay Marsh Boardwalk",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                5,
+                8,
+                16,
+                17
+            ],
+            "latitude": 44.976866
+        }
+    },
+    {
+        "pk": 49,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                4,
+                6,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=66&type=SFPW",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-922-5280",
+            "longitude": -85.373093,
+            "name": "Sand Lakes Quiet Area",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                5,
+                15
+            ],
+            "latitude": 44.723429
+        }
+    },
+    {
+        "pk": 50,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Skegemog_Lake_SWMA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-732-3541",
+            "longitude": -85.283058,
+            "name": "Skegemog Swamp Pathway",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                11,
+                14,
+                16
+            ],
+            "latitude": 44.811103
+        }
+    },
+    {
+        "pk": 51,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                6
+            ],
+            "owner_link": "http://www.grassriver.org/",
+            "owner": "Antrim County",
+            "telephone": "231-533-8314",
+            "longitude": -85.219926,
+            "name": "Grass River Natural Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                9,
+                10,
+                17
+            ],
+            "latitude": 44.913914
+        }
+    },
+    {
+        "pk": 52,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                11,
+                12
+            ],
+            "owner_link": "",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "",
+            "longitude": -84.93513,
+            "name": "Jordan River Valley",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                11,
+                16,
+                17
+            ],
+            "latitude": 45.045342
+        }
+    },
+    {
+        "pk": 53,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=509&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-436-5381",
+            "longitude": -84.896508,
+            "name": "Wilderness State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10
+            ],
+            "latitude": 45.7462417
+        }
+    },
+    {
+        "pk": 54,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=473&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-436-5563",
+            "longitude": -84.6729242,
+            "name": "Historic Mill Creek Discovery Park",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                2
+            ],
+            "latitude": 45.7453669
+        }
+    },
+    {
+        "pk": 55,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=441",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-627-2811",
+            "longitude": -84.4027759,
+            "name": "Cheboygan State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                16,
+                17
+            ],
+            "latitude": 45.6457251
+        }
+    },
+    {
+        "pk": 56,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=500&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-734-2543",
+            "longitude": -83.5885596,
+            "name": "Thompson's Harbor State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10
+            ],
+            "latitude": 45.3427416
+        }
+    },
+    {
+        "pk": 57,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                7,
+                9,
+                11,
+                12
+            ],
+            "owner_link": "http://www.nettiebay.com/",
+            "owner": "NettieBay Lodge",
+            "telephone": "989-734-4688",
+            "longitude": -83.9891438,
+            "name": "NettieBay Lodge",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10,
+                14,
+                15
+            ],
+            "latitude": 45.3019008
+        }
+    },
+    {
+        "pk": 58,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=629&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-625-2522",
+            "longitude": -84.1769828,
+            "name": "Tomahawk Creek Flooding",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10
+            ],
+            "latitude": 45.2189118
+        }
+    },
+    {
+        "pk": 59,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigan.gov/documents/dnr/DNR_Elk_Brochure_401828_7.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-983-4101",
+            "longitude": -84.439346,
+            "name": "Pigeon River Country Elk Range",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                4
+            ],
+            "latitude": 45.169379
+        }
+    },
+    {
+        "pk": 60,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                3,
+                4,
+                7,
+                9,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "",
+            "owner": "multiple private ownerships",
+            "telephone": "",
+            "longitude": -83.855036,
+            "name": "Fletcher Pond and Floodwaters",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                15,
+                16,
+                17
+            ],
+            "latitude": 44.990813
+        }
+    },
+    {
+        "pk": 61,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigan.gov/documents/dnr/DeWardMap_371319_7.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-348-6371",
+            "longitude": -84.8332248,
+            "name": "Deward Tract",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                11,
+                14,
+                15
+            ],
+            "latitude": 44.8368606
+        }
+    },
+    {
+        "pk": 62,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                7,
+                10,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=453",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-348-7068",
+            "longitude": -84.6656048,
+            "name": "Hartwick Pines State Park",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 44.740461
+        }
+    },
+    {
+        "pk": 63,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                12
+            ],
+            "owner_link": "",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-348-6371",
+            "longitude": -84.905861,
+            "name": "Fletcher Plains",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10,
+                14,
+                17
+            ],
+            "latitude": 44.525397
+        }
+    },
+    {
+        "pk": 64,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Dead_Stream_Flooding_SWMA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-275-5151",
+            "longitude": -84.8426523,
+            "name": "Dead Stream Flooding State Wildlife Management Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                17
+            ],
+            "latitude": 44.3785325
+        }
+    },
+    {
+        "pk": 65,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                11
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Houghton_Lake_Flats_South_Flooding_SWMA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-422-6572",
+            "longitude": -84.7996012,
+            "name": "Houghton Lake Flats - South Unit",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                9,
+                10,
+                13,
+                16,
+                17
+            ],
+            "latitude": 44.3631621
+        }
+    },
+    {
+        "pk": 66,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Backus_Creek_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-275-5151",
+            "longitude": -84.5820738,
+            "name": "Backus Creek State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                7,
+                10
+            ],
+            "latitude": 44.3307278
+        }
+    },
+    {
+        "pk": 67,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                7,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=496",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-821-6374",
+            "longitude": -84.6792821,
+            "name": "Marl Lake and South Higgins Lake State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14
+            ],
+            "latitude": 44.4248172
+        }
+    },
+    {
+        "pk": 68,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                4,
+                6,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/hmnf/recarea/?recid=18814",
+            "owner": "United States Forest Service",
+            "telephone": "800-821-6263",
+            "longitude": -84.5087653,
+            "name": "Wakeley Lake Foot Travel Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                5,
+                7,
+                9,
+                10
+            ],
+            "latitude": 44.6336369
+        }
+    },
+    {
+        "pk": 69,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "",
+            "owner": "United States Forest Service",
+            "telephone": "",
+            "longitude": -84.292189,
+            "name": "Au Sable River",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                5,
+                10,
+                15
+            ],
+            "latitude": 44.67638
+        }
+    },
+    {
+        "pk": 70,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=489",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-473-2258",
+            "longitude": -84.0221766,
+            "name": "Rifle River Recreation Area",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                16,
+                17
+            ],
+            "latitude": 44.4196516
+        }
+    },
+    {
+        "pk": 71,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fs.usda.gov/recarea/hmnf/null/recarea/?recid=26211&actid=82",
+            "owner": "United States Forest Service",
+            "telephone": "800-821-6263",
+            "longitude": -83.4695124,
+            "name": "Tuttle Marsh Wildlife Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                13,
+                16,
+                17
+            ],
+            "latitude": 44.3619949
+        }
+    },
+    {
+        "pk": 72,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                10,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=499",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-362-5041",
+            "longitude": -83.4422914,
+            "name": "Tawas Point State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                3,
+                8,
+                10,
+                13,
+                14,
+                17
+            ],
+            "latitude": 44.2599931
+        }
+    },
+    {
+        "pk": 73,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Wigwam_Bay_SWA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-697-5101",
+            "longitude": -83.7858239,
+            "name": "Wigwam Bay State Wildlife Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                11,
+                13,
+                14,
+                16,
+                17
+            ],
+            "latitude": 44.0003439
+        }
+    },
+    {
+        "pk": 74,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                11,
+                13
+            ],
+            "owner_link": "http://www.baycounty-mi.gov/PinconningPark/",
+            "owner": "",
+            "telephone": "989-879-5050",
+            "longitude": -83.924476,
+            "name": "Pinconning County Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                16,
+                17
+            ],
+            "latitude": 43.853171
+        }
+    },
+    {
+        "pk": 75,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                8,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=498&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-727-4703",
+            "longitude": -83.272704,
+            "name": "Sturgeon Point State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 44.711085
+        }
+    },
+    {
+        "pk": 76,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=476",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-724-5126",
+            "longitude": -83.345972,
+            "name": "Negwegon State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 44.849322
+        }
+    },
+    {
+        "pk": 77,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                6,
+                7,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=696",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-848-4880",
+            "longitude": -85.940559,
+            "name": "Tippy Dam Recreation Area",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 44.261538
+        }
+    },
+    {
+        "pk": 78,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                4,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=635&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-785-4388",
+            "longitude": -84.186529,
+            "name": "Avery Lake State Forest Campground",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 44.932201
+        }
+    },
+    {
+        "pk": 79,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                4,
+                6,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=627&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-734-2543",
+            "longitude": -84.055268,
+            "name": "Ocqueoc Falls State Forest Campground",
+            "ada": true,
+            "fee": true,
+            "animals": [],
+            "latitude": 45.395676
+        }
+    },
+    {
+        "pk": 80,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                6,
+                8,
+                9,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=452&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-869-2051",
+            "longitude": -86.372871,
+            "name": "William Field Memorial Hart-Montague Trail State Park",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                14
+            ],
+            "latitude": 43.688983
+        }
+    },
+    {
+        "pk": 81,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Haymarsh_Lake_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-465-4188",
+            "longitude": -85.362873,
+            "name": "Haymarsh Lake State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14,
+                17
+            ],
+            "latitude": 43.762777
+        }
+    },
+    {
+        "pk": 82,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "https://www.consumersenergy.com/uploadedFiles/CEWEB/SHARED/HardyTrail.pdf",
+            "owner": "Consumers Energy",
+            "telephone": "",
+            "longitude": -85.637013,
+            "name": "Hardy Dam Rustic Nature Trail",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                9,
+                10,
+                14,
+                15
+            ],
+            "latitude": 43.490807
+        }
+    },
+    {
+        "pk": 83,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Muskegon_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-788-5055",
+            "longitude": -86.056768,
+            "name": "Muskegon State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                17
+            ],
+            "latitude": 43.292369
+        }
+    },
+    {
+        "pk": 84,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=475",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-744-3480",
+            "longitude": -86.332291,
+            "name": "Muskegon State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                13,
+                17
+            ],
+            "latitude": 43.250903
+        }
+    },
+    {
+        "pk": 85,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=457",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "231-798-3711",
+            "longitude": -86.266438,
+            "name": "P.J. Hoffmaster State Park",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                8,
+                14
+            ],
+            "latitude": 43.133106
+        }
+    },
+    {
+        "pk": 86,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                7
+            ],
+            "owner_link": "",
+            "owner": "City of Grand Haven",
+            "telephone": "616-847-3493",
+            "longitude": -86.225412,
+            "name": "Harbor Island",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                13,
+                14,
+                16,
+                17
+            ],
+            "latitude": 43.075335
+        }
+    },
+    {
+        "pk": 87,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "",
+            "owner": "City of Ferrysburg",
+            "telephone": "616-842-5803",
+            "longitude": -86.245507,
+            "name": "Kitchel-Lindquist-Hartger Dunes Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                10,
+                11,
+                14,
+                16
+            ],
+            "latitude": 43.061755
+        }
+    },
+    {
+        "pk": 88,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10
+            ],
+            "owner_link": "http://blandfordnaturecenter.org/",
+            "owner": "Blandford Nature Center",
+            "telephone": "616-735-6240",
+            "longitude": -85.738651,
+            "name": "Blandford Nature Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                10
+            ],
+            "latitude": 42.994989
+        }
+    },
+    {
+        "pk": 89,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1
+            ],
+            "owner_link": "http://www.friendsofgrparks.org/parks/find-a-park/fish-ladder-park/",
+            "owner": "City of Grand Rapids",
+            "telephone": "616-456-3696",
+            "longitude": -85.676893,
+            "name": "Fish Ladder Park",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                5
+            ],
+            "latitude": 42.974653
+        }
+    },
+    {
+        "pk": 90,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                10,
+                11
+            ],
+            "owner_link": "https://www.accesskent.com/Parks/Directory/pickerel.htm",
+            "owner": "Kent County Parks",
+            "telephone": "616-632-7275",
+            "longitude": -85.465131,
+            "name": "Pickerel Lake",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                2,
+                14,
+                16,
+                17
+            ],
+            "latitude": 43.072052
+        }
+    },
+    {
+        "pk": 91,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                10
+            ],
+            "owner_link": "http://www.cityofholland.com/degraafnaturecenter",
+            "owner": "City of Holland",
+            "telephone": "616-355-1057",
+            "longitude": -86.137196,
+            "name": "De Graaf Nature Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 42.774627
+        }
+    },
+    {
+        "pk": 92,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                6,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Allegan_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-673-2430",
+            "longitude": -85.99484,
+            "name": "Allegan State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                10,
+                17
+            ],
+            "latitude": 42.549724
+        }
+    },
+    {
+        "pk": 93,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                6
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?id=463&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-674-8011",
+            "longitude": -85.667747,
+            "name": "Kal-Haven Trail State Park",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                14
+            ],
+            "latitude": 42.326651
+        }
+    },
+    {
+        "pk": 94,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                10
+            ],
+            "owner_link": "http://www.sarett.com/",
+            "owner": "Sarett Nature Center",
+            "telephone": "269-927-4832",
+            "longitude": -86.37889,
+            "name": "Sarett Nature Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 42.155587
+        }
+    },
+    {
+        "pk": 95,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "\"http://www.michigan.gov/dnr/0,4570,7-153-10364_52259_19092-46294--,00.html\"",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-685-6851",
+            "longitude": -86.332338,
+            "name": "Berrien Springs Fish Ladder",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                5
+            ],
+            "latitude": 41.943331
+        }
+    },
+    {
+        "pk": 96,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                10,
+                13
+            ],
+            "owner_link": "http://www.fernwoodbotanical.org/",
+            "owner": "Fernwood Botanical Garden and Nature Preserve",
+            "telephone": "269-695-6491",
+            "longitude": -86.346165,
+            "name": "Fernwood Botanical Garden and Nature Preserve",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                11,
+                14
+            ],
+            "latitude": 41.865361
+        }
+    },
+    {
+        "pk": 97,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                10
+            ],
+            "owner_link": "http://www.portagemi.gov/Departments/PRSCS/ParksRecreation/ParksAmenitiesListing/WestLakeNaturePreserve.aspx",
+            "owner": "City of Portage",
+            "telephone": "269-329-4522",
+            "longitude": -85.587961,
+            "name": "West Lake Nature Preserve",
+            "ada": true,
+            "fee": false,
+            "animals": [],
+            "latitude": 42.184062
+        }
+    },
+    {
+        "pk": 98,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                5,
+                10
+            ],
+            "owner_link": "\"http://www.michigan.gov/dnr/0,1607,7-153-10369_46675_57592---,00.html\"",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-668-2876",
+            "longitude": -85.784316,
+            "name": "Wolf Lake State Fish Hatchery Visitor Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                5
+            ],
+            "latitude": 42.292704
+        }
+    },
+    {
+        "pk": 99,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                10,
+                13
+            ],
+            "owner_link": "http://naturecenter.org/",
+            "owner": "Kalamazoo Nature Center",
+            "telephone": "269-381-1574",
+            "longitude": -85.590094,
+            "name": "Kalamazoo Nature Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                3,
+                11,
+                14
+            ],
+            "latitude": 42.363515
+        }
+    },
+    {
+        "pk": 100,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=511&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-795-9081",
+            "longitude": -85.513917,
+            "name": "Yankee Springs State Recreation Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                15,
+                16,
+                17
+            ],
+            "latitude": 42.619753
+        }
+    },
+    {
+        "pk": 101,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Barry_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-795-3280",
+            "longitude": -85.446816,
+            "name": "Barry State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                12,
+                14,
+                15
+            ],
+            "latitude": 42.625654
+        }
+    },
+    {
+        "pk": 102,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10,
+                13
+            ],
+            "owner_link": "http://www.kbs.msu.edu/visit/birdsanctuary",
+            "owner": "Michigan State University",
+            "telephone": "269-671-2510",
+            "longitude": -85.382941,
+            "name": "Kellogg Bird Sanctuary",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                17
+            ],
+            "latitude": 42.391604
+        }
+    },
+    {
+        "pk": 103,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10,
+                13
+            ],
+            "owner_link": "http://www.binderparkzoo.org/",
+            "owner": "\"Binder Park Zoological Society, Inc.\"",
+            "telephone": "269-979-1351",
+            "longitude": -85.15624,
+            "name": "Binder Park Zoo",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                11,
+                14,
+                16,
+                17
+            ],
+            "latitude": 42.246407
+        }
+    },
+    {
+        "pk": 104,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                10
+            ],
+            "owner_link": "http://www.albion.edu/about-albion/whitehouse-nature-center",
+            "owner": "Albion College",
+            "telephone": "517-629-0582",
+            "longitude": -84.737828,
+            "name": "Whitehouse Nature Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                5,
+                10,
+                14,
+                16,
+                17
+            ],
+            "latitude": 42.242712
+        }
+    },
+    {
+        "pk": 105,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                6,
+                10
+            ],
+            "owner_link": "http://www.dahlemcenter.org/",
+            "owner": "Jackson Community College",
+            "telephone": "517-782-3453",
+            "longitude": -84.427651,
+            "name": "Dahlem Environmental Education Center",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 42.162474
+        }
+    },
+    {
+        "pk": 106,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                4,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Lost_Nation_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "517-522-4097",
+            "longitude": -84.513869,
+            "name": "Lost Nation State Game Area",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                15
+            ],
+            "latitude": 41.863896
+        }
+    },
+    {
+        "pk": 107,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                6,
+                10,
+                13
+            ],
+            "owner_link": "http://www.woldumar.org/",
+            "owner": "Nature Way Association",
+            "telephone": "517-322-0030",
+            "longitude": -84.63316,
+            "name": "Woldumar Nature Center",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                17
+            ],
+            "latitude": 42.691447
+        }
+    },
+    {
+        "pk": 108,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Maple_River_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "517-641-4903",
+            "longitude": -84.562986,
+            "name": "Maple River State Game Area",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                10,
+                16,
+                17
+            ],
+            "latitude": 43.146848
+        }
+    },
+    {
+        "pk": 109,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                6,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Rose_Lake_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "517-641-4903",
+            "longitude": -84.393419,
+            "name": "Rose Lake Wildlife Area",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                12,
+                16
+            ],
+            "latitude": 42.798897
+        }
+    },
+    {
+        "pk": 110,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Dansville_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "517-641-4903",
+            "longitude": -84.311806,
+            "name": "Dansville State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "latitude": 42.509812
+        }
+    },
+    {
+        "pk": 111,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=506",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "734-475-8307",
+            "longitude": -84.105995,
+            "name": "Waterloo Recreation Area",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                8,
+                12
+            ],
+            "latitude": 42.333304
+        }
+    },
+    {
+        "pk": 112,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://www.michiganaudubon.org/our-conservation-impact/bird-sanctuaries/",
+            "owner": "Michigan Audubon Society",
+            "telephone": "517-580-7364",
+            "longitude": -84.289031,
+            "name": "Haehnle Audubon Sanctuary",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                12,
+                16
+            ],
+            "latitude": 42.321193
+        }
+    },
+    {
+        "pk": 113,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://www.a2gov.org/departments/Parks-Recreation/parks-places/Pages/BirdHills.aspx",
+            "owner": "Ann Arbor Department of Parks and Recreation",
+            "telephone": "734-794-6230",
+            "longitude": -83.765942,
+            "name": "Bird Hills Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 42.300289
+        }
+    },
+    {
+        "pk": 114,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Pointe_Mouillee_SGA_all-area_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "734-379-9692",
+            "longitude": -83.199606,
+            "name": "Pointe Mouillee State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                10,
+                13,
+                16,
+                17
+            ],
+            "latitude": 42.039981
+        }
+    },
+    {
+        "pk": 115,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.metroparks.com/Lake-Erie-Metropark",
+            "owner": "Huron-Clinton Metroparks",
+            "telephone": "734-379-5020",
+            "longitude": -83.210849,
+            "name": "Lake Erie Metropark",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                8,
+                10,
+                17
+            ],
+            "latitude": 42.070534
+        }
+    },
+    {
+        "pk": 116,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.metroparks.com/Lake-St.-Clair-Metropark",
+            "owner": "Huron-Clinton Metroparks",
+            "telephone": "586-463-4581",
+            "longitude": -82.809623,
+            "name": "Lake Saint Clair Metropark",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                3,
+                7,
+                8,
+                14,
+                16,
+                17
+            ],
+            "latitude": 42.581896
+        }
+    },
+    {
+        "pk": 117,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                10,
+                13
+            ],
+            "owner_link": "http://www.sevenponds.org/",
+            "owner": "Seven Ponds Nature Center",
+            "telephone": "810-796-3200",
+            "longitude": -83.188823,
+            "name": "Seven Ponds Nature Center",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                2,
+                14
+            ],
+            "latitude": 42.929797
+        }
+    },
+    {
+        "pk": 118,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10
+            ],
+            "owner_link": "http://troynaturesociety.org/index.php/en/",
+            "owner": "City of Troy",
+            "telephone": "248-688-9703",
+            "longitude": -83.189412,
+            "name": "Lloyd A. Stage Nature Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                5,
+                8,
+                11,
+                14,
+                16
+            ],
+            "latitude": 42.616766
+        }
+    },
+    {
+        "pk": 119,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                6
+            ],
+            "owner_link": "http://www.westbloomfieldparks.org/west-bloomfield-woods-nature-preserve.html",
+            "owner": "West Bloomfield Parks and Recreation Commission",
+            "telephone": "248-451-1900",
+            "longitude": -83.393663,
+            "name": "West Bloomfield Woods Nature Preserve",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                16
+            ],
+            "latitude": 42.568037
+        }
+    },
+    {
+        "pk": 120,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.destinationoakland.com/parksandtrails/parks/independenceoaks/Pages/default.aspx",
+            "owner": "Oakland County Parks and Recreation Commission",
+            "telephone": "248-625-0877",
+            "longitude": -83.382376,
+            "name": "Independence Oaks County Park",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                11,
+                14
+            ],
+            "latitude": 42.771444
+        }
+    },
+    {
+        "pk": 121,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                10,
+                13
+            ],
+            "owner_link": "http://www.metroparks.com/Indian-Springs-Metropark",
+            "owner": "Huron-Clinton Metroparks",
+            "telephone": "248-625-6640",
+            "longitude": -83.511718,
+            "name": "Indian Springs Metropark",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                16,
+                17
+            ],
+            "latitude": 42.693432
+        }
+    },
+    {
+        "pk": 122,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                10,
+                11,
+                13
+            ],
+            "owner_link": "http://www.metroparks.com/Kensington-Metropark",
+            "owner": "Huron-Clinton Metroparks",
+            "telephone": "810-227-8910",
+            "longitude": -83.634243,
+            "name": "Kensington Metropark",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                14,
+                16
+            ],
+            "latitude": 42.550154
+        }
+    },
+    {
+        "pk": 123,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                6,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.fws.gov/refuge/shiawassee/",
+            "owner": "United States Fish and Wildlife Service",
+            "telephone": "989-777-5930",
+            "longitude": -83.96782,
+            "name": "Shiawassee National Wildlife Refuge",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                10,
+                14,
+                17
+            ],
+            "latitude": 43.321932
+        }
+    },
+    {
+        "pk": 124,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                6,
+                7,
+                10,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Shiawassee_River_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-865-6211",
+            "longitude": -84.14102,
+            "name": "Shiawassee River State Game Area",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                17
+            ],
+            "latitude": 43.299822
+        }
+    },
+    {
+        "pk": 125,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                10
+            ],
+            "owner_link": "http://www.saginaw-mi.com/departments/publicservices/parksandfacilities/",
+            "owner": "City of Saginaw",
+            "telephone": "989-759-1669",
+            "longitude": -83.983342,
+            "name": "Green Point Environmental Center",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                17
+            ],
+            "latitude": 43.393382
+        }
+    },
+    {
+        "pk": 126,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5,
+                6,
+                10
+            ],
+            "owner_link": "http://chippewanaturecenter.org/",
+            "owner": "\"Chippewa Nature Center, Inc.\"",
+            "telephone": "989-631-0830",
+            "longitude": -84.290677,
+            "name": "Chippewa Nature Center",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                2
+            ],
+            "latitude": 43.599355
+        }
+    },
+    {
+        "pk": 127,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                10
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Tobico_Marsh_Unit_of_Bay_City_SRA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-684-9141",
+            "longitude": -83.906656,
+            "name": "Tobico Marsh",
+            "ada": true,
+            "fee": true,
+            "animals": [
+                5,
+                8,
+                13,
+                14,
+                16,
+                17
+            ],
+            "latitude": 43.667636
+        }
+    },
+    {
+        "pk": 128,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                7,
+                11,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Fish_Point_SWA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-674-2511",
+            "longitude": -83.526658,
+            "name": "Fish Point State Wildlife Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                16,
+                17
+            ],
+            "latitude": 43.689406
+        }
+    },
+    {
+        "pk": 129,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://www.huronnaturecenter.org/",
+            "owner": "Huron County Nature Center Wilderness Arboretum",
+            "telephone": "989-551-8400",
+            "longitude": -83.120024,
+            "name": "Huron County Nature Center",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                11,
+                14
+            ],
+            "latitude": 43.993361
+        }
+    },
+    {
+        "pk": 130,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                10,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=486&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-738-8663",
+            "longitude": -83.08032,
+            "name": "Port Crescent State Park",
+            "ada": true,
+            "fee": false,
+            "animals": [
+                7,
+                8,
+                10,
+                14
+            ],
+            "latitude": 43.994799
+        }
+    },
+    {
+        "pk": 131,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                6,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=491",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-637-2788",
+            "longitude": -86.194546,
+            "name": "Saugatuck Dunes State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 42.699425
+        }
+    },
+    {
+        "pk": 132,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                12
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Nayanquing_Point_SWA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-697-5101",
+            "longitude": -83.93761,
+            "name": "Nayanquing Point State Wildlife Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                13,
+                14,
+                16,
+                17
+            ],
+            "latitude": 43.775064
+        }
+    },
+    {
+        "pk": 133,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                8,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=504",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-426-4013",
+            "longitude": -86.595491,
+            "name": "Warren Dunes State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                13,
+                14,
+                16,
+                17
+            ],
+            "latitude": 41.901759
+        }
+    },
+    {
+        "pk": 134,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                4,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=462",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "810-229-7067",
+            "longitude": -83.690289,
+            "name": "Island Lake Recreation Area",
+            "ada": true,
+            "fee": true,
+            "animals": [],
+            "latitude": 42.516882
+        }
+    },
+    {
+        "pk": 135,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=497&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "734-289-2715",
+            "longitude": -83.344612,
+            "name": "Sterling State Park",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                10,
+                13,
+                14,
+                17
+            ],
+            "latitude": 41.92424
+        }
+    },
+    {
+        "pk": 136,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                4,
+                6,
+                7,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=455",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "248-889-3750",
+            "longitude": -83.544799,
+            "name": "Highland Recreation Area",
+            "ada": false,
+            "fee": true,
+            "animals": [],
+            "latitude": 42.648838
+        }
+    },
+    {
+        "pk": 137,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                4,
+                6,
+                7,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=459",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "248-634-8811",
+            "longitude": -83.543218,
+            "name": "Holly Recreation Area",
+            "ada": false,
+            "fee": true,
+            "animals": [],
+            "latitude": 42.816106
+        }
+    },
+    {
+        "pk": 138,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=484",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "734-426-4913",
+            "longitude": -83.964882,
+            "name": "Pinckney Recreation Area",
+            "ada": false,
+            "fee": true,
+            "animals": [],
+            "latitude": 42.411776
+        }
+    },
+    {
+        "pk": 139,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=494&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-856-4411",
+            "longitude": -83.210338,
+            "name": "Albert E. Sleeper State Park",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                8,
+                10
+            ],
+            "latitude": 43.980563
+        }
+    },
+    {
+        "pk": 140,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                11,
+                12,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/Details.aspx?type=SPRK&id=437",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "989-684-3020",
+            "longitude": -83.907686,
+            "name": "Bay City State Recreation Area",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                13,
+                14,
+                16
+            ],
+            "latitude": 43.66731
+        }
+    },
+    {
+        "pk": 141,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2
+            ],
+            "owner_link": "http://www.sblc-mi.org/discovery-preserve.html",
+            "owner": "Saginaw Basin Land Conservancy/Bay County",
+            "telephone": "989-684-3020",
+            "longitude": -83.915671,
+            "name": "Discovery Preserve at Euclid Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                16,
+                17
+            ],
+            "latitude": 43.583859
+        }
+    },
+    {
+        "pk": 142,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2
+            ],
+            "owner_link": "http://www.baycitymi.org/departments/parks/parks/item/277-edward-m-golson-boat-launch-and-nature-area",
+            "owner": "City of Bay City",
+            "telephone": "989-894-8314",
+            "longitude": -83.873217,
+            "name": "Edward M. Golson Boat Launch and Nature Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14,
+                16
+            ],
+            "latitude": 43.609039
+        }
+    },
+    {
+        "pk": 143,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://hamptontownship.org/ParksandRec.aspx",
+            "owner": "Hampton Township",
+            "telephone": "989-893-7541",
+            "longitude": -83.816407,
+            "name": "Hampton Township Nature Trail",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                14
+            ],
+            "latitude": 43.634178
+        }
+    },
+    {
+        "pk": 144,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://www.baycitymi.org/departments/parks/parks/item/270-bigelow-park",
+            "owner": "City of Bay City",
+            "telephone": "989-894-8314",
+            "longitude": -83.901134,
+            "name": "Middlegrounds Island/Bigelow Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                17
+            ],
+            "latitude": 43.582243
+        }
+    },
+    {
+        "pk": 145,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://www.sblc-mi.org/pinconning-nature-preserve.html",
+            "owner": "Saginaw Basin Land Conservancy",
+            "telephone": "989-891-9986",
+            "longitude": -83.931724,
+            "name": "Pinconning Nature Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                11,
+                14,
+                17
+            ],
+            "latitude": 43.853069
+        }
+    },
+    {
+        "pk": 146,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://www.sblc-mi.org/saganing-nature-preserve.html",
+            "owner": "Saginaw Basin Land Conservancy",
+            "telephone": "989-891-9986",
+            "longitude": -83.904727,
+            "name": "Saganing Nature Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 43.925004
+        }
+    },
+    {
+        "pk": 147,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://www.sblc-mi.org/sand-point-nature-preserve.html",
+            "owner": "Saginaw Basin Land Conservancy",
+            "telephone": "989-891-9986",
+            "longitude": -83.322039,
+            "name": "Sand Point Nature Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                12,
+                14,
+                16,
+                17
+            ],
+            "latitude": 43.90755
+        }
+    },
+    {
+        "pk": 148,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://www.sblc-mi.org/standish-nature-preserve.html",
+            "owner": "Saginaw Basin Land Conservancy",
+            "telephone": "989-891-9986",
+            "longitude": -83.890194,
+            "name": "Standish Nature Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 43.937837
+        }
+    },
+    {
+        "pk": 149,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2
+            ],
+            "owner_link": "http://www.sblc-mi.org/wah-sash-kah-moqua-nature-preserve.html",
+            "owner": "Saginaw Basin Land Conservancy",
+            "telephone": "989-891-9986",
+            "longitude": -83.919108,
+            "name": "Wah Sash Kah Moqua Nature Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14,
+                16
+            ],
+            "latitude": 43.910465
+        }
+    },
+    {
+        "pk": 150,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                11
+            ],
+            "owner_link": "\"http://www.michigan.gov/dnr/0,4570,7-153-10365_67024---,00.html\"",
+            "owner": "\"City of Detroit, managed by Michigan Department of Natural Resources\"",
+            "telephone": "844-235-5375",
+            "longitude": -82.996582,
+            "name": "Belle Isle",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                17
+            ],
+            "latitude": 42.340032
+        }
+    },
+    {
+        "pk": 151,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                6,
+                11
+            ],
+            "owner_link": "http://www.waynecounty.com/dps/1842.htm",
+            "owner": "Wayne County Division of Parks",
+            "telephone": "734-654-1220",
+            "longitude": -83.440952,
+            "name": "Crosswinds Marsh Wetlands Interpretive Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                10,
+                13,
+                14,
+                17
+            ],
+            "latitude": 42.096293
+        }
+    },
+    {
+        "pk": 152,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                11
+            ],
+            "owner_link": "http://www.fws.gov/refuge/detroit_river/",
+            "owner": "United States Fish and Wildlife Service",
+            "telephone": "734-365-0219",
+            "longitude": -83.19086,
+            "name": "Detroit River International Wildlife Refuge & Humbug Marsh",
+            "ada": false,
+            "fee": true,
+            "animals": [],
+            "latitude": 42.116443
+        }
+    },
+    {
+        "pk": 153,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                11,
+                12
+            ],
+            "owner_link": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/michigan/placesweprotect/erie-marsh-preserve.xml",
+            "owner": "The Nature Conservancy",
+            "telephone": "517-316-0300",
+            "longitude": -83.472516,
+            "name": "Erie Marsh Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                13,
+                14,
+                17
+            ],
+            "latitude": 41.764163
+        }
+    },
+    {
+        "pk": 154,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                7
+            ],
+            "owner_link": "http://www.michigandnr.com/publications/pdfs/huntingwildlifehabitat/sga/Erie_SGA_map.pdf",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "734-379-9692",
+            "longitude": -83.475605,
+            "name": "Erie State Game Area",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                13,
+                14,
+                16,
+                17
+            ],
+            "latitude": 41.743741
+        }
+    },
+    {
+        "pk": 155,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                11
+            ],
+            "owner_link": "http://www.metroparks.com/Lower%20Huron%20Metropark",
+            "owner": "Huron-Clinton Metroparks",
+            "telephone": "734-697-9181",
+            "longitude": -83.428147,
+            "name": "Lower Huron Metropark",
+            "ada": false,
+            "fee": true,
+            "animals": [],
+            "latitude": 42.194033
+        }
+    },
+    {
+        "pk": 156,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                7,
+                11
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=697&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "313-396-0217",
+            "longitude": -83.0272,
+            "name": "William G. Milliken State Park & Harbor",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                8,
+                17
+            ],
+            "latitude": 42.332973
+        }
+    },
+    {
+        "pk": 157,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                5
+            ],
+            "owner_link": "http://www.rrbo.org/",
+            "owner": "University of Michigan-Dearborn",
+            "telephone": "313-583-6373",
+            "longitude": -83.237518,
+            "name": "University of Michigan-Dearborn Rouge River Bird Observatory/Environmental Interpretive Center",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                14
+            ],
+            "latitude": 42.319558
+        }
+    },
+    {
+        "pk": 158,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3
+            ],
+            "owner_link": "http://www.ecorsemi.gov/community/parksfacilities.asp",
+            "owner": "City of Ecorse",
+            "telephone": "313-386-2520",
+            "longitude": -83.144731,
+            "name": "Dingell Park",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                8,
+                10,
+                14,
+                16,
+                17
+            ],
+            "latitude": 42.241288
+        }
+    },
+    {
+        "pk": 159,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                8
+            ],
+            "owner_link": "http://www.cityoflunapier.com/Default.aspx?tabid=2514",
+            "owner": "City of Luna Pier",
+            "telephone": "734-848-6495",
+            "longitude": -83.441292,
+            "name": "Luna Pier Jetty",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                13,
+                17
+            ],
+            "latitude": 41.809316
+        }
+    },
+    {
+        "pk": 160,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                5,
+                11
+            ],
+            "owner_link": "http://www.metroparks.com/Oakwoods-Metropark",
+            "owner": "Huron-Clinton Metroparks",
+            "telephone": "734-782-3956",
+            "longitude": -83.3573,
+            "name": "Oakwoods Metropark",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                10,
+                14
+            ],
+            "latitude": 42.11487
+        }
+    },
+    {
+        "pk": 161,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                8,
+                11
+            ],
+            "owner_link": "http://www.metroparks.com/willow-metropark",
+            "owner": "Huron-Clinton Metroparks",
+            "telephone": "734-697-9181",
+            "longitude": -83.368973,
+            "name": "Willow Metropark",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                17
+            ],
+            "latitude": 42.117528
+        }
+    },
+    {
+        "pk": 162,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                13
+            ],
+            "owner_link": "http://www.cityofnewbuffalo.org/citybeach.asp",
+            "owner": "City of New Buffalo",
+            "telephone": "269-469-1522",
+            "longitude": -86.747012,
+            "name": "New Buffalo Public Beach",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                13,
+                16,
+                17
+            ],
+            "latitude": 41.800847
+        }
+    },
+    {
+        "pk": 163,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://www.berriencounty.org/parks/?dept=1&pid=185",
+            "owner": "Berrien County",
+            "telephone": "269-983-7111",
+            "longitude": -86.718105,
+            "name": "Galien River County Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 41.804688
+        }
+    },
+    {
+        "pk": 164,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://www.swmlc.org/content/kesling-nature-preserve",
+            "owner": "Southwest Michigan Land Conservancy",
+            "telephone": "269-324-1600",
+            "longitude": -86.663619,
+            "name": "Forest Lawn Road Floodplain & Kesling Nature Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14
+            ],
+            "latitude": 41.776812
+        }
+    },
+    {
+        "pk": 165,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                3,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=505&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-426-4013",
+            "longitude": -86.623423,
+            "name": "Warren Woods State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 41.82804
+        }
+    },
+    {
+        "pk": 166,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                2,
+                3,
+                6,
+                7,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=450&type=SPRK",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "269-426-4013",
+            "longitude": -86.542552,
+            "name": "Grand Mere State Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                17
+            ],
+            "latitude": 42.003867
+        }
+    },
+    {
+        "pk": 167,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                13
+            ],
+            "owner_link": "http://www.berriencounty.org/parks/?dept=1&pid=193",
+            "owner": "Berrien County",
+            "telephone": "269-983-7111",
+            "longitude": -86.484275,
+            "name": "Silver Beach County Park",
+            "ada": false,
+            "fee": false,
+            "animals": [],
+            "latitude": 42.109541
+        }
+    },
+    {
+        "pk": 168,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                13
+            ],
+            "owner_link": "http://www.sjcity.com/play-here/183-tiscornia-beach",
+            "owner": "City of St. Joseph",
+            "telephone": "269-983-6325",
+            "longitude": -86.48635,
+            "name": "Tiscornia Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                13,
+                16
+            ],
+            "latitude": 42.114935
+        }
+    },
+    {
+        "pk": 169,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                13
+            ],
+            "owner_link": "http://bentonharborcity.com/parks-recreation/",
+            "owner": "City of Benton Harbor",
+            "telephone": "269-927-8420",
+            "longitude": -86.474272,
+            "name": "Jean Klock Park",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                13,
+                16
+            ],
+            "latitude": 42.126055
+        }
+    },
+    {
+        "pk": 170,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://sarett.com/visit/brown-sanctuary/",
+            "owner": "Sarett Nature Center",
+            "telephone": "269-927-4832",
+            "longitude": -86.416049,
+            "name": "Brown Sanctuary",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                13,
+                14,
+                17
+            ],
+            "latitude": 42.1414
+        }
+    },
+    {
+        "pk": 171,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                5,
+                13
+            ],
+            "owner_link": "http://www.berriencounty.org/parks/?dept=1&pid=186",
+            "owner": "Berrien County",
+            "telephone": "269-471-2617",
+            "longitude": -86.295969,
+            "name": "Love Creek County Park & Nature Center",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 41.950211
+        }
+    },
+    {
+        "pk": 172,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://www.buchanantownship.net/attractions.htm",
+            "owner": "Buchanan Township",
+            "telephone": "269-695-6442",
+            "longitude": -86.435888,
+            "name": "Mud Lake Bog Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                10,
+                14,
+                16
+            ],
+            "latitude": 41.827195
+        }
+    },
+    {
+        "pk": 173,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "",
+            "owner": "United States Coast Guard/Town of St. James",
+            "telephone": "",
+            "longitude": -85.509233,
+            "name": "Beaver Island Harbor Light",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                13,
+                14,
+                16
+            ],
+            "latitude": 45.7428
+        }
+    },
+    {
+        "pk": 174,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "http://landtrust.org/wordpress/wp-content/uploads/2013/04/PreserveMap2013.pdf",
+            "owner": "Little Traverse Conservancy",
+            "telephone": "231-347-0991",
+            "longitude": -85.504225,
+            "name": "George and Althea Petritz Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                8,
+                13,
+                14,
+                17
+            ],
+            "latitude": 45.751639
+        }
+    },
+    {
+        "pk": 175,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "",
+            "longitude": -85.515659,
+            "name": "Luney's Point",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                13,
+                17
+            ],
+            "latitude": 45.721364
+        }
+    },
+    {
+        "pk": 176,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "",
+            "owner": "Little Traverse Conservancy",
+            "telephone": "",
+            "longitude": -85.510757,
+            "name": "Little Sand Bay Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14
+            ],
+            "latitude": 45.717538
+        }
+    },
+    {
+        "pk": 177,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "",
+            "owner": "Little Traverse Conservancy",
+            "telephone": "",
+            "longitude": -85.493673,
+            "name": "Erber Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                14,
+                16
+            ],
+            "latitude": 45.607316
+        }
+    },
+    {
+        "pk": 178,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [],
+            "owner_link": "",
+            "owner": "Little Traverse Conservancy",
+            "telephone": "",
+            "longitude": -85.556455,
+            "name": "Barney's Lake Preserve",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                10,
+                13,
+                16
+            ],
+            "latitude": 45.712241
+        }
+    },
+    {
+        "pk": 179,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2
+            ],
+            "owner_link": "http://tahquamenonloggingmuseum.org/",
+            "owner": "Tahquamenon Logging Museum",
+            "telephone": "906-293-3700",
+            "longitude": -85.509851,
+            "name": "Tahquamenon Logging Museum",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                12,
+                14,
+                17
+            ],
+            "latitude": 46.370299
+        }
+    },
+    {
+        "pk": 180,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                7
+            ],
+            "owner_link": "http://www.ericksoncenter.org/",
+            "owner": "Erickson Center For The Arts",
+            "telephone": "906-586-9974",
+            "longitude": -85.749954,
+            "name": "Erickson Center for the Arts",
+            "ada": false,
+            "fee": false,
+            "animals": [
+                7,
+                14,
+                16
+            ],
+            "latitude": 46.20637
+        }
+    },
+    {
+        "pk": 181,
+        "model": "viewingsites.ViewSite",
+        "fields": {
+            "publish": true,
+            "facilities": [
+                1,
+                2,
+                4,
+                7,
+                11,
+                13
+            ],
+            "owner_link": "http://www.michigandnr.com/parksandtrails/details.aspx?id=684&type=SFCG",
+            "owner": "Michigan Department of Natural Resources",
+            "telephone": "906-293-5131",
+            "longitude": -85.581422,
+            "name": "Natalie State Forest Campground",
+            "ada": false,
+            "fee": true,
+            "animals": [
+                10,
+                13,
+                14,
+                17
+            ],
+            "latitude": 46.350049
+        }
+    }
+]

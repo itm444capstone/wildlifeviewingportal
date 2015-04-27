@@ -1,0 +1,25 @@
+<div ng-controller="FilterController">
+    <div class="row padding">
+        <div class="col-sm-12">
+            <form ng-submit="filter()">
+                <div class="form-group">
+                    <label for="facilities">
+                        Facilities
+                    </label>
+                    <select multiple="multiple" ng-model="selectedFacilities" name="facilities" id="facilities" class="form-control">
+                        <option ng-repeat="n in facilities" value="{{ n.id }}">{{ n.name }}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="animals">
+                        Animals
+                    </label>
+                    <select multiple="multiple" ng-model="selectedAnimals" name="animals" id="animals" class="form-control">
+                        <option ng-repeat="n in animals" value="{{ n.id }}">{{ n.name }}</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-long">Filter</button>
+            </form>
+        </div>
+    </div>
+</div>

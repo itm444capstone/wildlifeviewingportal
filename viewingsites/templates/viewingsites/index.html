@@ -1,0 +1,48 @@
+{% extends "master.html" %}
+{%  load staticfiles %}
+
+{% block app %}
+    ng-app="wildlife"
+{% endblock %}
+
+{% block top_styles %}
+    <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css">
+{% endblock %}
+
+{% block top_scripts %}
+    <script src="http://js.arcgis.com/3.13/"></script>
+{% endblock %}
+
+{% block page_content %}
+    {% verbatim %}
+    <div ng-view class="content-view"></div>
+    {% endverbatim %}
+{% endblock %}
+
+{% block bottom_scripts %}
+    <script src="{% static "js/angular.js" %}"></script>
+    <script src="{% static "js/angular-route.min.js" %}"></script>
+    <script src="{% static "js/ui-bootstrap.js" %}"></script>
+    <script src="{% static "js/ui-bootstrap-tpls.js" %}"></script>
+    <script src="{% static "js/angular-esri-map.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/directives/directions.js" %}"></script>
+
+    <script src="{% static "js/itm444.angular/application.js" %}"></script>
+    <script src="{% static "js/itm444.angular/wildlife.config.js" %}"></script>
+    <script src="{% static "js/itm444.angular/wildlife.routes.js" %}"></script>
+
+    <script src="{% static "js/itm444.angular/portal/portal.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/services/ViewingSiteService.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/services/FilterOptions.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/controllers/index.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/controllers/navbarController.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/controllers/mapController.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/controllers/sidebarController.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/controllers/filter.js" %}"></script>
+    <script src="{% static "js/itm444.angular/portal/controllers/Directions.js" %}"></script>
+
+    <script src="{% static "js/itm444.angular/site/site.js" %}"></script>
+    <script src="{% static "js/itm444.angular/site/services/SiteService.js" %}"></script>
+    <script src="{% static "js/itm444.angular/site/controllers/SiteController.js" %}"></script>
+
+{% endblock %}
