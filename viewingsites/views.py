@@ -16,7 +16,7 @@ class ViewSiteViewSet(viewsets.ReadOnlyModelViewSet):
         return ViewSiteDetailSerializer
 
     def get_queryset(self):
-        queryset = ViewSite.objects.all();
+        queryset = ViewSite.objects.filter(publish=True);
 
         facilities = self.request.QUERY_PARAMS.get('facilities', None);
         animals = self.request.QUERY_PARAMS.get('animals', None);
