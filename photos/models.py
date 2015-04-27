@@ -12,6 +12,7 @@ class Photo(models.Model):
     class Meta:
         verbose_name = "Photo"
         verbose_name_plural = "Photos"
+        ordering = ('title', )
 
     def get_image(self):
         """ Method for determing which method for uploading an image to
@@ -26,3 +27,8 @@ class Photo(models.Model):
         """ Return the image as a property """
         return self.get_image()
 
+    def __str__(self):
+        return self.title
+
+    def __unicode__(self):
+        return self.title

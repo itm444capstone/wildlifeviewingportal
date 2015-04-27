@@ -36,6 +36,7 @@ class ViewSite(models.Model):
     class Meta:
         verbose_name = "Viewing Site"
         verbose_name_plural = "Viewing Sites"
+        ordering = ('name', )
 
     @property
     def coordinates(self):

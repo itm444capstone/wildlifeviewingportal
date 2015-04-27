@@ -13,3 +13,10 @@ class Animal(models.Model):
     class Meta:
         verbose_name = "Animal"
         verbose_name_plural = "Animals"
+        ordering = ['name',]
+
+    def __str__(self):
+        return self.name
+
+    def __unicode__(self):
+        return self.name

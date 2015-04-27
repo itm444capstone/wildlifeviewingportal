@@ -10,4 +10,10 @@ class Facility(models.Model):
     class Meta:
         verbose_name = "Facility"
         verbose_name_plural = "Facilities"
+        ordering = ('name',)
 
+    def __str__(self):
+        return self.name
+
+    def __unicode__(self):
+        return self.name
