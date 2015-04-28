@@ -22,11 +22,6 @@ html, body {
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
-.navbar-brand {
-  img {
-    margin-top: -15px;
-  }
-}
 
 #main.container-fluid {
   height: 100%;
@@ -170,6 +165,10 @@ html, body {
         }
       }
     }
+
+    .panel-body-override {
+      padding: 15px;
+    }
   }
 }
 
@@ -226,6 +225,23 @@ html, body {
           padding-bottom: 30px;
         }
       }
+    }
+  }
+}
+
+.alert-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  float: right;
+
+  .alert-box-inner {
+    width: 100%;
+
+    .alert {
+      margin-bottom: 0;
+      width: 500px;
     }
   }
 }
