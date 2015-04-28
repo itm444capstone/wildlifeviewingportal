@@ -7,6 +7,7 @@
 
     angular.module('wildlife', [
         'ui.bootstrap',
+        'isteven-multi-select',
         'wildlife.config',
         'wildlife.routes',
         'wildlife.portal',

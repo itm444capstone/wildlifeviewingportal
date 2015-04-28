@@ -43,7 +43,18 @@
             }
 
             $scope.filter = function (){
-                ViewingSiteService.filterSites($scope.selectedFacilities, $scope.selectedAnimals);
+                var animal = [];
+                var facility = [];
+
+                angular.forEach($scope.selectedAnimals, function(anim, index) {
+                    animal.push(anim.id);
+                });
+
+                angular.forEach($scope.selectedFacilities, function(fac, index) {
+                    facility.push(fac.id);
+                });
+                console.log($scope.selectedAnimals);
+                ViewingSiteService.filterSites(facility, animal);
             }
         }
     }
