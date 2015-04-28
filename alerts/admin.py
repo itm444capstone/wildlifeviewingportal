@@ -7,3 +7,6 @@ from alerts.models import Alert
 class AlertAdmin(admin.ModelAdmin):
     search_fields = ['title', 'description', ]
     list_filter = ('publish', 'level',)
+    list_display = ('title', 'level', 'publish')
+    list_editable = ('level', 'publish')
+    list_per_page = 20

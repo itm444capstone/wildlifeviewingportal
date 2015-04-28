@@ -37,3 +37,9 @@ class Alert(models.Model):
             self.publish = False
 
         return self.publish
+
+    def __str__(self):
+        return self.title
+
+    def __unicode__(self):
+        return self.title
