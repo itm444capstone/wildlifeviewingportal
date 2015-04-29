@@ -18,9 +18,9 @@ class Photo(models.Model):
         """ Method for determing which method for uploading an image to
         select """
         if self.link:
-            return self.link
+            return True
 
-        return self.image
+        return False
 
     @property
     def img(self):

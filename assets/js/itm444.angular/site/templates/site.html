@@ -114,6 +114,30 @@
     </div>
 </div>
 
+<div ng-if="site.photos.length > 0">
+    <div class="gallery">
+        <div class="gallery-inner">
+            <div class="container">
+                <div class="row">
+                        <carousel interval="3000">
+                            <slide ng-repeat="photo in site.photos">
+                                <span ng-switch="photo.img">
+                                    <span ng-switch-when="true"><img ng-src="{{ photo.link }}"></span>
+                                    <span ng-switch-default><img ng-src="{{ photo.image }}"></span>
+                                </span>
+                                <div class="carousel-caption">
+                                    <h4>Slide {{ $index }}</h4>
+                                    <p>{{ photo.title }}</p>
+                                </div>
+                            </slide>
+                        </carousel>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <div class="alert-box">
     <div class="alert-box-inner">
         <alert ng-repeat="al in alerts" type="{{ al.type }}" close="closeAlert($index)">{{ al.title }}</alert>
