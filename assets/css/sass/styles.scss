@@ -277,6 +277,11 @@ html, body {
 
             .item {
               height: 100%;
+
+              img {
+                max-width: 768px;
+                max-height: 432px;
+              }
             }
           }
 
