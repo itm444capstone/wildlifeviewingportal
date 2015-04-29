@@ -8,12 +8,16 @@
         module('wildlife.site.controllers').
         controller('SiteController', SiteController);
 
-    SiteController.$inject = ['$scope', '$rootScope', '$routeParams', 'SiteDetailService'];
+    SiteController.$inject = ['$scope', '$rootScope', '$sce', '$routeParams', 'SiteDetailService'];
 
-    function SiteController($scope, $rootScope, $routeParams, SiteDetailService) {
+    function SiteController($scope, $rootScope, $sce, $routeParams, SiteDetailService) {
         $scope.siteId = $routeParams.siteId;
         $scope.site = {};
         $scope.alerts = [];
+
+        $scope.deliberatelyTrustUnsafeHtml = function () {
+            return $sce.trustAsHtml($scope.site.description);
+        }
 
         getSite();
 

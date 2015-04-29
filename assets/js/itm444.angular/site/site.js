@@ -9,6 +9,6 @@
            'wildlife.site.services'
        ]);
 
-    angular.module('wildlife.site.controllers', []);
+    angular.module('wildlife.site.controllers', ['ngSanitize']);
     angular.module('wildlife.site.services', []);
 })();

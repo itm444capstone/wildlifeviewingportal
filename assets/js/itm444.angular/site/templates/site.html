@@ -65,7 +65,7 @@
                             </h4>
                         </div>
                         <div class="panel-body panel-body-override">
-                            {{ site.description }}
+                            <span ng-bind-html="deliberatelyTrustUnsafeHtml()"></span>
                         </div>
                     </div>
                 </div>
