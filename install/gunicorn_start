@@ -1,0 +1,26 @@
+#!/bin/bash
+
+NAME="itm444"
+DJANGODIR=SED_DJANGO_DIR_REPLACE
+SOCKFILE=SED_SOCK_FILE_REPLACE
+USER=SED_USER_REPLACE
+GROUP=SED_GROUP_REPLACE
+NUM_WORKERS=4
+DJANGO_SETTINGS_FILE=itm444.settings
+DJANGO_WSGI_MODULE=itm444.wsgi
+
+cd $DJANGODIR
+source ../bin/activate
+export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
+export PYTHONPATH=$DJANGODIR:$PYTHONPATH
+
+RUNDIR=$(dirname $SOCKFILE)
+test -d $RUNDIR || mkdir -p $RUNDIR
+
+# Start the django unicorn
+exec ../bin/gunicorn ${DJANGO_WSGI_MODULE}:application \
+         --name $NAME \
+         --workers $NUM_WORKERS \
+         --bind=unix:$SOCKFILE \
+         --log-level=debug \
+         --log-file=- \
